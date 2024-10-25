@@ -1,0 +1,75 @@
+$primary-color: #3498db; // Example primary color
+$secondary-color: #2ecc71; // Example secondary color
+$text-color: #333; // Text color
+$background-color: #f9f9f9; // Background color
+$card-border-radius: 8px; // Border radius for project cards
+$card-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Card shadow effect
+
+section {
+    padding: 40px 20px; // Padding for the section
+    background-color: $background-color; // Background color
+    text-align: center; // Center the text
+
+    h2 {
+        font-size: 2.5em; // Size for the main heading
+        color: $primary-color; // Primary color
+        margin-bottom: 10px; // Margin below the heading
+    }
+
+    h3 {
+        font-size: 1.5em; // Size for the subheading
+        color: $text-color; // Text color
+        margin-bottom: 30px; // Margin below the subheading
+    }
+
+    .projects-container {
+        display: flex; // Flexbox for the container
+        flex-wrap: wrap; // Allow items to wrap
+        justify-content: center; // Center the items
+        gap: 20px; // Space between items
+
+        .project-card {
+            background-color: white; // Card background
+            border-radius: $card-border-radius; // Border radius
+            box-shadow: $card-shadow; // Shadow effect
+            padding: 20px; // Padding inside the card
+            width: 300px; // Fixed width for cards
+            transition: transform 0.2s; // Transition for hover effect
+            
+            &:hover {
+                transform: translateY(-5px); // Lift effect on hover
+            }
+
+            img {
+                width: 100%; // Make image responsive
+                border-radius: $card-border-radius; // Round corners of the image
+            }
+
+            h4 {
+                font-size: 1.25em; // Size for project title
+                color: $text-color; // Text color
+                margin: 15px 0; // Margin around title
+            }
+
+            p {
+                font-size: 1em; // Size for project description
+                color: $text-color; // Text color
+                margin-bottom: 20px; // Margin below description
+            }
+
+            a {
+                display: inline-block; // Make the link a block element
+                padding: 10px 20px; // Padding for the button
+                background-color: $primary-color; // Button background color
+                color: white; // Button text color
+                border-radius: $card-border-radius; // Round corners
+                text-decoration: none; // Remove underline
+                transition: background-color 0.3s; // Transition for hover effect
+                
+                &:hover {
+                    background-color: $secondary-color; // Change color on hover
+                }
+            }
+        }
+    }
+}

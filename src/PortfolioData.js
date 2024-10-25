@@ -172,15 +172,44 @@ const proficiencyData = {
 
     You can also change button text by changing "projectsButtonText" 
 */
+
+const researchProjects = {
+    heading: "My Research Projects",
+    subHeading: "Exploring AI and Machine Learning Applications",
+    projectsList: [
+        {
+            title: "UAV Navigation Systems",
+            description: "Developed navigation systems for Unmanned Aerial Vehicles (UAVs) using video camera data for real-time analysis.",
+            imageAlt: "UAV Navigation Project",
+            imageSrc: "link_to_image.jpg", // Replace with your project image link
+            hasLink: true,
+            projectLink: "link_to_project_details", // Replace with your project details link
+        },
+        {
+            title: "Deep Reinforcement Learning for Robot Grasping",
+            description: "Implemented deep reinforcement learning algorithms for robot grasping tasks, supervised by Baris Yazici.",
+            imageAlt: "Robot Grasping Project",
+            imageSrc: "link_to_image.jpg", // Replace with your project image link
+            hasLink: true,
+            projectLink: "link_to_project_details", // Replace with your project details link
+        },
+        // Add more projects as needed
+    ]
+};
+
+
+
 const projectsGithubRepos = {
-    heading : "What I have made",
+   // heading : "What I have made",
     username : "priyankanahar09",
     repoNames : [
-        "GANCartoonStyle"
+      //  "GANCartoonStyle",
+      //  "Gender-Recognition-via-transfer-Learning",
+        
         
     ],
-    githubRepositoriesLink : "https://github.com/priyankanahar09?tab=repositories",
-    projectsButtonText : "More Projects"
+    githubRepositoriesLink : "",
+    projectsButtonText : "More"
 }
 
 
@@ -260,5 +289,6 @@ export {
     proficiencyData,
     projectsGithubRepos,
     achievementsAndCertifications,
-    contactMe
+    contactMe,
+    researchProjects
 }
