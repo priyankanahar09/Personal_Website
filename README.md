@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h2 align="center">DevProfolio</h3>
+  <h2 align="center">Website</h3>
   <p align="center">
     An awesome customizable portfolio for developers 
  
