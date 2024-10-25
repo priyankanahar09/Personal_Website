@@ -16,10 +16,7 @@ This is a fully customizable portfolio designed exclusively for developers. With
 - **Achievements**: Include your achievements to stand out.
 - **Contact Information**: Add links to your LinkedIn, email, coding profiles, and GitHub.
 
-### Built With
-- [![React][React.js]][React-url]
-- [![HTML][HTML]][Html-url]
-- [![SASS][SASS]][SASS-url]
+
 
 <!-- GETTING STARTED -->
 ## How to Customize Your Portfolio 🥳
@@ -89,6 +86,11 @@ Contribution Steps
 3. Commit your changes: ```git commit -m 'Add some AmazingFeature'```
 4. Push to the branch: ```git push origin feature/AmazingFeature```
 5. Open a Pull Request.
+
+### Built With
+- [![React][React.js]][React-url]
+- [![HTML][HTML]][Html-url]
+- [![SASS][SASS]][SASS-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [SASS-url]: https://sass-lang.com/
