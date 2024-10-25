@@ -21,14 +21,18 @@ const Navbar = () => {
                 <a href="#skills">Skills</a>
               </li>
               <li className="navbar-items" onClick={toggleMobileMenu}>
-                <a href="#projects">Projects</a>
+                <a href="#researchproject">Research Projects</a>
               </li>
+
+            {/*  <li className="navbar-items" onClick={toggleMobileMenu}>
+                <a href="#projects">Projects</a>
+              </li> */}
               <li className="navbar-items" onClick={toggleMobileMenu}>
                 <a href="#proficiency">Proficiency</a>
               </li>
-              <li className="navbar-items" onClick={toggleMobileMenu}>
+            {/*   <li className="navbar-items" onClick={toggleMobileMenu}>
                 <a href="#achievements">Achievements</a>
-              </li>
+              </li> */}
               <li className="navbar-items" onClick={toggleMobileMenu}>
                 <a href="#contact">Contact Me</a>
               </li>

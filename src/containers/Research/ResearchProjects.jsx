@@ -4,10 +4,10 @@ import "./ResearchProjects.scss";
 
 const ResearchProjects = () => {
     return (
-        <section>
+        <section id="researchproject">
             <h2>{researchProjects.heading}</h2>
             <h3>{researchProjects.subHeading}</h3>
-            <div className="projects-container">
+            <div  className="projects-container">
                 {researchProjects.projectsList.map((project, index) => (
                     <div key={index} className="project-card">
                         <img src={project.imageSrc} alt={project.imageAlt} />

@@ -178,20 +178,26 @@ const researchProjects = {
     subHeading: "Exploring AI and Machine Learning Applications",
     projectsList: [
         {
-            title: "UAV Navigation Systems",
-            description: "Developed navigation systems for Unmanned Aerial Vehicles (UAVs) using video camera data for real-time analysis.",
-            imageAlt: "UAV Navigation Project",
-            imageSrc: "link_to_image.jpg", // Replace with your project image link
-            hasLink: true,
-            projectLink: "link_to_project_details", // Replace with your project details link
+            title: "IoT System Architecture for a Smart City",
+            description: "This project involves designing a comprehensive IoT system architecture aimed at improving urban management through smart sensors, data analytics, and efficient resource allocation.",
+            imageAlt: "Project",
+            imageSrc: "link_to_image.jpg", // Replace with your project image link,
         },
         {
-            title: "Deep Reinforcement Learning for Robot Grasping",
-            description: "Implemented deep reinforcement learning algorithms for robot grasping tasks, supervised by Baris Yazici.",
+            title: "UAV ",
+            description: "Developed ",
+            imageAlt: "UAV ",
+            imageSrc: "link_to_image.jpg", // Replace with your project image link
+            //hasLink: true,
+            //projectLink: "link_to_project_details", // Replace with your project details link
+        },
+        {
+            title: " Robot Body Simulation and Control Using Neural Network (Master's Thesis)",
+            description: "Developed deep reinforcement learning algorithms to improve robotic manipulation and grasping strategies in dynamic environments, enhancing precision and adaptability.",
             imageAlt: "Robot Grasping Project",
             imageSrc: "link_to_image.jpg", // Replace with your project image link
-            hasLink: true,
-            projectLink: "link_to_project_details", // Replace with your project details link
+           // hasLink: true,
+           // projectLink: "link_to_project_details", // Replace with your project details link
         },
         // Add more projects as needed
     ]
@@ -286,9 +292,10 @@ export {
     introduction,
     profilesToShow,
     skillsToShow,
+    researchProjects,
     proficiencyData,
     projectsGithubRepos,
     achievementsAndCertifications,
-    contactMe,
-    researchProjects
+    contactMe
+    
 }
