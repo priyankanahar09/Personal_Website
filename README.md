@@ -48,7 +48,7 @@ Perform the below mentioned steps in the Terminal or Command Prompt.
 
 1. Clone the repo
    ```sh
-   gh repo clone rhythm-design/DevProfolio
+   gh repo clone priyankanahar09/Personal_Website
    ```
 2. Install NPM packages
    ```sh
