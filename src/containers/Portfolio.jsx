@@ -7,6 +7,8 @@ import Projects from "./Projects/Projects";
 import Proficiency from "./Proficiency/Proficiency";
 import Achievements from "./Achievements/Achievements";
 import ContactMe from "./ContactMe/ContactMe";
+import ResearchProjects from "./Research/ResearchProjects";
+
 const Portfolio = () =>{
     const [showSplashScreen, setShowSplashScreen] = useState(true);
 
@@ -33,6 +35,7 @@ const Portfolio = () =>{
             <Projects />
             <Achievements />
             <ContactMe />
+            <ResearchProjects/>
         </div>
     );
 }

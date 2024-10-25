@@ -1,5 +1,5 @@
 import React from 'react';
-import { researchProjects } from '../../portfoliodata'; // Adjust the path as necessary
+import { researchProjects } from '../../PortfolioData'; // Adjust the path as necessary
 import "./ResearchProjects.scss";
 
 const ResearchProjects = () => {
