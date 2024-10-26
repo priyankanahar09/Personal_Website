@@ -33,12 +33,6 @@ const profilesToShow = [
     },
 
     {
-        name : "leetcode",
-        link : "https://leetcode.com/rhythm_varshney/",
-        fontAwesomeIcon : "fas fa-code",
-    },
-
-    {
         name : "linkedin",
         link : "https://www.linkedin.com/in/priyanka-nahar/",
         fontAwesomeIcon : "fab fa-linkedin-in"
@@ -148,13 +142,28 @@ const proficiencyData = {
             percent : "85%"
         },
         {
-            name : "Backend",
-            percent : "70%"
+            name : "Machine Learning",
+            percent : "80%"
         },
 
         {
             name : "Linux and Systems Administration",
             percent : "70%"
+        }
+    ],
+    languagesData: [
+        // Language Proficiency
+        {
+            name: "English",
+            level: "Fluent" // You can also use "Native" here
+        },
+        {
+            name: "Spanish",
+            level: "Intermediate"
+        },
+        {
+            name: "Russian",
+            level: "Beginner"
         }
     ]
 }
@@ -174,7 +183,7 @@ const proficiencyData = {
 */
 
 const researchProjects = {
-    heading: "My Research Projects",
+    heading: "Research Projects",
     subHeading: "Exploring AI and Machine Learning Applications",
     projectsList: [
         {
@@ -203,7 +212,9 @@ const researchProjects = {
     ]
 };
 
-
+const blog = {
+    heading: "Blog"
+}
 
 const projectsGithubRepos = {
    // heading : "What I have made",
@@ -293,6 +304,7 @@ export {
     profilesToShow,
     skillsToShow,
     researchProjects,
+    blog,
     proficiencyData,
     projectsGithubRepos,
     achievementsAndCertifications,
