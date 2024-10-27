@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Personal_Website/static/css/main.137608ff.css",
+    "main.js": "/Personal_Website/static/js/main.d0a4fd8b.js",
+    "static/js/453.f325869b.chunk.js": "/Personal_Website/static/js/453.f325869b.chunk.js",
+    "static/media/PriyankaProfile.jpg": "/Personal_Website/static/media/PriyankaProfile.d463715337729e55e4e1.jpg",
+    "static/media/Montserrat-Regular.ttf": "/Personal_Website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/Personal_Website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "index.html": "/Personal_Website/index.html",
+    "main.137608ff.css.map": "/Personal_Website/static/css/main.137608ff.css.map",
+    "main.d0a4fd8b.js.map": "/Personal_Website/static/js/main.d0a4fd8b.js.map",
+    "453.f325869b.chunk.js.map": "/Personal_Website/static/js/453.f325869b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137608ff.css",
+    "static/js/main.d0a4fd8b.js"
+  ]
+}
