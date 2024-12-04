@@ -154,49 +154,31 @@ const proficiencyData = {
     languagesData: [
         // Language Proficiency
         {
+            name: "Hindi",
+            level: "Native"
+        },
+        {
             name: "English",
             level: "Fluent" // You can also use "Native" here
         },
         {
-            name: "Spanish",
-            level: "Intermediate"
-        },
-        {
             name: "Russian",
-            level: "Beginner"
+            level: "Intermediate"
         }
     ]
 }
 
 
-/*
-    Enter your github username. For example if your profile link is 
-        • https://github.com/rhythm-design, then enter only "rhythm-design" as username
-    
-    Enter the repositories you want to show in the portfolio. For example if repo link is 
-        • https://github.com/rhythm-design/NavigateTheBot, then enter only "NavigateTheBot" in repoNames array.
-    Keep in mind that each repository name should be in `""` inverted commas and need to be seperated by `,`
-
-    Enter github repositories tab link as "githubRepositoriesLink"
-
-    You can also change button text by changing "projectsButtonText" 
-*/
-
 const researchProjects = {
     heading: "Research Projects",
     subHeading: "Exploring AI and Machine Learning Applications",
     projectsList: [
+       
         {
-            title: "IoT System Architecture for a Smart City",
-            description: "This project involves designing a comprehensive IoT system architecture aimed at improving urban management through smart sensors, data analytics, and efficient resource allocation.",
-            imageAlt: "Project",
-            imageSrc: "link_to_image.jpg", // Replace with your project image link,
-        },
-        {
-            title: "UAV ",
-            description: "Developed ",
+            title: "Research in AI-Driven Emergency Response Systems",
+            description: "Conducted innovative research at the intersection of machine learning, wireless communication, and computer vision, focusing on advancing autonomous systems. Explored the deployment of UAVs as on-demand base stations to enable real-time data analysis for rapid emergency response.",
             imageAlt: "UAV ",
-            imageSrc: "link_to_image.jpg", // Replace with your project image link
+            imageSrc: require("./assets/images/uav.jpg") // Replace with your project image link
             //hasLink: true,
             //projectLink: "link_to_project_details", // Replace with your project details link
         },
@@ -204,16 +186,22 @@ const researchProjects = {
             title: " Robot Body Simulation and Control Using Neural Network (Master's Thesis)",
             description: "Developed deep reinforcement learning algorithms to improve robotic manipulation and grasping strategies in dynamic environments, enhancing precision and adaptability.",
             imageAlt: "Robot Grasping Project",
-            imageSrc: "link_to_image.jpg", // Replace with your project image link
+            imageSrc: require("./assets/images/robot.jpg"), // Replace with your project image link
            // hasLink: true,
            // projectLink: "link_to_project_details", // Replace with your project details link
+        },
+        {
+            title: "IoT System Architecture for a Smart City",
+            description: "This project involves designing a comprehensive IoT system architecture aimed at improving urban management through smart sensors, data analytics, and efficient resource allocation.",
+            imageAlt: "Project",
+            imageSrc:  require("./assets/images/IOT.jpg") // Replace with your project image link,
         },
         // Add more projects as needed
     ]
 };
 
 const blog = {
-    heading: "Blog"
+    heading: "More"
 }
 
 const projectsGithubRepos = {
