@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/Personal_Website/static/css/main.137608ff.css",
-    "main.js": "/Personal_Website/static/js/main.97a797cc.js",
+    "main.js": "/Personal_Website/static/js/main.fc54ccd5.js",
     "static/js/453.5f3b0b44.chunk.js": "/Personal_Website/static/js/453.5f3b0b44.chunk.js",
     "static/media/PriyankaProfile.jpg": "/Personal_Website/static/media/PriyankaProfile.d463715337729e55e4e1.jpg",
+    "static/media/IOT.jpg": "/Personal_Website/static/media/IOT.0fa5fd96b45e554cc140.jpg",
     "static/media/Montserrat-Regular.ttf": "/Personal_Website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/Personal_Website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/uav.jpg": "/Personal_Website/static/media/uav.227afd40edaff3b385c9.jpg",
+    "static/media/robot.jpg": "/Personal_Website/static/media/robot.8d042801fb2c84adf50e.jpg",
     "index.html": "/Personal_Website/index.html",
     "main.137608ff.css.map": "/Personal_Website/static/css/main.137608ff.css.map",
-    "main.97a797cc.js.map": "/Personal_Website/static/js/main.97a797cc.js.map",
+    "main.fc54ccd5.js.map": "/Personal_Website/static/js/main.fc54ccd5.js.map",
     "453.5f3b0b44.chunk.js.map": "/Personal_Website/static/js/453.5f3b0b44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.137608ff.css",
-    "static/js/main.97a797cc.js"
+    "static/js/main.fc54ccd5.js"
   ]
 }
