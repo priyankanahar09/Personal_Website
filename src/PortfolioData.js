@@ -18,7 +18,7 @@ const introduction = {
     
     introductionText : "I am a computer science engineer with a master's in Neural Networks and Computers, specializing in AI and machine learning. I'm passionate about AI and eager to work on projects or research related to AI and ML." ,
 
-    resumeLink : "",
+    resumeLink : "https://drive.google.com/drive/folders/1z6TlmhbiaL8sd8d0AtC6TgqbZOgv1HTe",
 
     resumeButtonText : "SEE MY RESUME", 
 
